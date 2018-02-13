@@ -8,7 +8,7 @@ main:
 
 	lw $a0, n
 	addi $v0, $0, 1
-	sycall
+	syscall
 
 	addi $v0, $0, 10
 	syscall
